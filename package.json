@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
     "decimal.js": "^10.4.3",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
