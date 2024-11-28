@@ -8,7 +8,7 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-} from "@/components/ui/card";
+} from "../components/ui/card";
 
 import { toast } from "sonner"
 
@@ -16,9 +16,9 @@ import { useGameStore, GameState } from '../store/gameStore';
 import { useEffectEvent } from '../hooks/useEffectEvent';
 import useWalletAuth from '../hooks/useWalletAuth';
 
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
+import { Input } from "../components/ui/input";
+import { Button } from "../components/ui/button";
+import { Label } from "../components/ui/label";
 
 import { currencies } from '../lib/currencies';
 
