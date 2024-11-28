@@ -2,7 +2,7 @@
 
 import Decimal from 'decimal.js';
 
-import { Label } from '@/components/ui/label';
+import { Label } from '../components/ui/label';
 
 import {
 	Table,
