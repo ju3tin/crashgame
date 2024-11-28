@@ -12,11 +12,11 @@ import {
 	DrawerHeader,
 	DrawerTitle,
 	DrawerTrigger,
-} from "@/components/ui/drawer"
+} from "../components/ui/drawer"
 
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
+import { Button } from "../components/ui/button";
+import { Label } from "../components/ui/label";
+import { Input } from "../components/ui/input";
 
 import useWalletBalances from '../hooks/useWalletBalances';
 import useWalletAuth from '../hooks/useWalletAuth';
@@ -76,7 +76,7 @@ export default function DepositDialog() {
 						<Button disabled={emptyDepositAmount || !hasEnoughBalance}>1. Approve token</Button>
 						<Button disabled={!hasEnoughAllowance || emptyDepositAmount}>2. Complete deposit</Button>
 						<DrawerClose asChild>
-							<Button variant="outline">Cancel</Button>
+							<Button className="outline">Cancel</Button>
 						</DrawerClose>
 					</DrawerFooter>
 				</div>

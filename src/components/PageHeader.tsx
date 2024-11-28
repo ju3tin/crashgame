@@ -11,7 +11,7 @@ export default function PageHeader() {
 
 			<div className={styles.WalletButton}>
 				<DepositDialog />
-				<w3m-button />
+				
 			</div>
 		</header>
 	);

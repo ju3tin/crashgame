@@ -6,7 +6,7 @@ import {
 	HoverCard,
 	HoverCardContent,
 	HoverCardTrigger,
-} from "@/components/ui/hover-card";
+} from "../components/ui/hover-card";
 
 import { useGameStore, CrashedGame } from '../store/gameStore';
 
